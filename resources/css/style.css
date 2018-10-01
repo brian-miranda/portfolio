@@ -12,21 +12,44 @@
 /*General styles*/
 body {
   background-color: #0333FF;
-  text-transform: uppercase;
+  font-size: 16px;
 }
 
-h1 {
+.vag {
   font-family: "VAG Rounded";
   text-transform: uppercase;
   color: #FFF;
 }
 
-p {
+.suk {
   font-family: "Sukhumvit";
   color: #FFF;
 }
 
 /*Header styles*/
 .logo {
-  height: 70px;
+  display: flex;
+  height: 80px;
+  width: 400px;
+  margin: 40px;
+}
+
+.logo img {
+  height: 80px;
+  margin-right: 40px;
+}
+
+.brand h1 {
+  font-size: 28px;
+  letter-spacing: 1.6px;
+}
+
+h1.brian {
+  letter-spacing: 2.3px;
+}
+
+.brand p {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  margin-top: 10px;
 }
