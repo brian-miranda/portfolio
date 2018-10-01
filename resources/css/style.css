@@ -1,0 +1,32 @@
+/*Custom fonts*/
+@font-face {
+  font-family: "VAG Rounded";
+  src: url(../fonts/VAG-rounded-bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sukhumvit";
+  src: url(../fonts/SukhumvitSet.ttc) format("opentype");
+}
+
+/*General styles*/
+body {
+  background-color: #0333FF;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "VAG Rounded";
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+p {
+  font-family: "Sukhumvit";
+  color: #FFF;
+}
+
+/*Header styles*/
+.logo {
+  height: 70px;
+}
