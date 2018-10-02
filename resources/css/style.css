@@ -11,6 +11,7 @@
 
 /*General styles*/
 body {
+  width: 100%;
   background-color: #0333FF;
   font-size: 16px;
 }
@@ -26,7 +27,16 @@ body {
   color: #FFF;
 }
 
+.title {
+  font-size: 3rem;
+}
+
 /*Header styles*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
   height: 80px;
@@ -54,6 +64,39 @@ h1.brian {
   margin-top: 10px;
 }
 
+/*Sidenav*/
+
+.sidenav {
+  transform: rotate(270deg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.sidenav div {
+  width: 150px;
+  padding: 5px;
+}
+
+.sidenav a {
+  text-decoration: none;
+}
+
+#work {
+  background-color: #0333FF;
+}
+
+#about {
+  background-color: #FF1E53;
+}
+
+#contact {
+  background-color: #FFD500;
+}
+
 /*Grid styles*/
 .grid {
   display: grid;
@@ -66,24 +109,18 @@ h1.brian {
   background-color: beige;
   color: black;
   border-radius: 5px;
-  border: 2px dodgerblue solid;
+  border: 2px green solid;
 }
 
-/*Navbar styles*/
-.sidebar {
-  position: fixed;
-  right: 0;
-  float: right;
-}
-
-a.work {
+/*Resume styles*/
+#portfolio {
   background-color: #0333FF;
 }
 
-a.about {
+#resume {
   background-color: #FF1E53;
 }
 
-a.contact {
+#contact {
   background-color: #FFD500;
 }
