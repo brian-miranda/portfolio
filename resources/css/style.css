@@ -53,3 +53,37 @@ h1.brian {
   letter-spacing: 1.6px;
   margin-top: 10px;
 }
+
+/*Grid styles*/
+.grid {
+  display: grid;
+  width: 100%;
+  height: 1000px;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*Navbar styles*/
+.sidebar {
+  position: fixed;
+  right: 0;
+  float: right;
+}
+
+a.work {
+  background-color: #0333FF;
+}
+
+a.about {
+  background-color: #FF1E53;
+}
+
+a.contact {
+  background-color: #FFD500;
+}
