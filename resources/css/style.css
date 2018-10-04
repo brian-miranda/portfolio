@@ -12,7 +12,7 @@
 /*General styles*/
 body {
   width: 100%;
-  background-color: #0333FF;
+  background-color: #FFF;
   font-size: 16px;
 }
 
@@ -31,8 +31,14 @@ body {
   font-size: 3rem;
 }
 
+.subtitle {
+  font-size: 2rem;
+}
+
 /*Header styles*/
 header {
+  width: 100%;
+  background-color: #0333FF;
   display: flex;
   justify-content: space-between;
 }
@@ -74,6 +80,8 @@ h1.brian {
   align-items: flex-end;
   max-height: 80px;
   max-width: 80px;
+  position: absolute;
+  right: -1px;
 }
 
 .sidenav div {
@@ -97,7 +105,11 @@ h1.brian {
   background-color: #FFD500;
 }
 
-/*Grid styles*/
+/*Portfolio styles*/
+#portfolio {
+  background-color: #0333FF;
+}
+
 .grid {
   display: grid;
   width: 100%;
@@ -113,14 +125,37 @@ h1.brian {
 }
 
 /*Resume styles*/
-#portfolio {
-  background-color: #0333FF;
-}
-
 #resume {
   background-color: #FF1E53;
 }
 
+.intro {
+  padding: 100px 190px 60px;
+  display: flex;
+}
+
+.intro-text {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.picture {
+  height: 200px;
+  width: auto;
+  border-radius: 100px;
+}
+
+.cv {
+  margin-left: 190px;
+}
+
+.subtitle {
+
+}
+
+/*Contact styles*/
 #contact {
   background-color: #FFD500;
 }
