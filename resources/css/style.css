@@ -25,14 +25,30 @@ body {
 .suk {
   font-family: "Sukhumvit";
   color: #FFF;
+  line-height: 1.1;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .title {
   font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 .subtitle {
   font-size: 2rem;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.or {
+  margin-bottom: 15px;
+}
+
+.block {
+  margin: 15px;
 }
 
 /*Header styles*/
@@ -127,10 +143,13 @@ h1.brian {
 /*Resume styles*/
 #resume {
   background-color: #FF1E53;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro {
-  padding: 100px 190px 60px;
+  padding: 90px 0 60px;
   display: flex;
 }
 
@@ -148,11 +167,16 @@ h1.brian {
 }
 
 .cv {
-  margin-left: 190px;
+  width: 850px;
+  padding-bottom: 90px;
 }
 
-.subtitle {
+.block h3 {
+  text-decoration: underline;
+}
 
+.right {
+  text-align: right;
 }
 
 /*Contact styles*/
