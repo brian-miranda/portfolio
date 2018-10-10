@@ -157,8 +157,42 @@
     <!-- Contact part -->
     <div id="contact">
       <!-- Contact sheet goes here -->
-      <h1 class="vag title">Let's work<br>together!</h1>
-      <p class="suk">&lt;web developer&gt;</p>
+      <div class="form-section">
+        <h1 class="vag title">Let's work<br>together!</h1>
+        <form id="contact" name="contact" method="post" class="suk">
+          <fieldset>
+            <label for="name" id="name">NAME:<span class="required">*</span></label>
+            <input type="text" name="name" id="name" size="30" value="" required/><br>
+
+            <label for="email" id="email">EMAIL:<span class="required">*</span></label>
+            <input type="text" name="email" id="email" size="30" value="" required/><br>
+
+            <label for="phone" id="phone">PHONE:</label>
+            <input type="text" name="phone" id="phone" size="30" value="" /><br>
+
+            <label for="Message" id="message">WHAT'S UP:<span class="required">*</span></label>
+            <!--<textarea name="message" id="message" required></textarea><br>-->
+            <input type="text" name="message" id="message" size="300" value="" /><br>
+
+
+            <input id="submit" type="submit" name="submit" value="Send" class="button"/><br>
+          </fieldset>
+        </form>
+        <div id="success">
+          <span>
+            <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+          </span>
+        </div>
+
+        <div id="error">
+          <span>
+            <p>Something went wrong, try refreshing and submitting the form again.</p>
+          </span>
+        </div>
     </div>
+
+    <!--Footer-->
+    <footer></footer>
+
   </body>
 </html>

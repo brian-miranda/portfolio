@@ -182,4 +182,42 @@ h1.brian {
 /*Contact styles*/
 #contact {
   background-color: #FFD500;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-section {
+  margin-top: 90px;
+  width: 850px;
+  height: 1000px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+label {
+  text-align: right;
+}
+
+input {
+  width: 600px;
+  height: 20px;
+  margin: 20px;
+}
+
+#message {
+  width: 565px;
+  height: 90px;
+}
+
+.button {
+  width: 50px;
+}
+
+/*Footer styles*/
+footer {
+  background-color: #373737;
 }
