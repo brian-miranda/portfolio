@@ -208,9 +208,20 @@ input {
   margin: 20px;
 }
 
-#message {
-  width: 565px;
+.message-box {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+label#message {
+  margin-top: 20px;
+}
+
+textarea#message {
+  width: 570px;
   height: 90px;
+  margin: 20px;
 }
 
 .button {
