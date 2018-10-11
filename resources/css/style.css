@@ -12,8 +12,13 @@
 /*General styles*/
 body {
   width: 100%;
-  background-color: #FFF;
+  background-color: #0333FF;
   font-size: 16px;
+}
+
+main {
+  position: relative;
+  top: 160px;
 }
 
 .vag {
@@ -53,6 +58,8 @@ body {
 
 /*Header styles*/
 header {
+  position: fixed;
+  z-index: 1;
   width: 100%;
   background-color: #0333FF;
   display: flex;
@@ -86,6 +93,10 @@ h1.brian {
   margin-top: 10px;
 }
 
+header a {
+  text-decoration: none;
+}
+
 /*Sidenav*/
 
 .sidenav {
@@ -107,6 +118,10 @@ h1.brian {
 
 .sidenav a {
   text-decoration: none;
+}
+
+.sidenav a:hover {
+  height: 500px;
 }
 
 #work {
