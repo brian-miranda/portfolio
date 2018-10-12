@@ -120,9 +120,11 @@ header a {
   text-decoration: none;
 }
 
+/*Nav button animation
 .sidenav a:hover {
   height: 500px;
 }
+*/
 
 #work {
   background-color: #0333FF;
@@ -195,7 +197,7 @@ header a {
 }
 
 /*Contact styles*/
-#contact {
+#contact-us {
   background-color: #FFD500;
 
   display: flex;
