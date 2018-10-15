@@ -101,30 +101,39 @@ header a {
 
 .sidenav {
   transform: rotate(270deg);
-  text-align: center;
+  transform-origin: bottom;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  max-height: 80px;
-  max-width: 80px;
+  align-content: flex-end;
+  justify-content: flex-end;
+  height: 80px;
+  width: 160px;
   position: absolute;
-  right: -1px;
+  right: -82px;
 }
 
 .sidenav div {
+  text-align: center;
   width: 150px;
   padding: 5px;
+  transition: all 0.5s ease;
 }
 
 .sidenav a {
   text-decoration: none;
 }
 
-/*Nav button animation
-.sidenav a:hover {
-  height: 500px;
+.sidenav div:hover {
+  padding: 15px 5px;
 }
-*/
+
+.sidenav div:active {
+  padding: 14px 5px;
+  background-color: white;
+  font-size: 15px;
+  transition: all 0.1s ease-out;
+}
 
 #work {
   background-color: #0333FF;
@@ -204,12 +213,14 @@ header a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top:-80px;
+  padding-top:80px;
 }
 
 .form-section {
   margin-top: 90px;
   width: 850px;
-  height: 650px;
+  height: 1000px;
 }
 
 form {
