@@ -5,8 +5,8 @@ $(document).ready(function() {
 
   $(function(){
   $('#header_nav').data('size','big');
-  $('.brand').data('position','yes');
   });
+
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 0)
@@ -17,6 +17,9 @@ $(document).ready(function() {
           $('#header_nav').stop().animate({
             height:'80px'
           },400);
+          $('.logo img').css('height', '40');
+          $('.logo img').css('transform', 'rotate(270deg)');
+          $('.brand').fadeOut();
       }
   }
   else
@@ -27,8 +30,11 @@ $(document).ready(function() {
           $('#header_nav').stop().animate({
             height:'160px'
           },100);
+          $('.logo img').css('height', '80');
+          $('.brand').fadeIn();
         }
     }
   });
-
 });
+
+// Change heading
