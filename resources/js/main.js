@@ -18,8 +18,11 @@ $(document).ready(function() {
             height:'80px'
           },400);
           $('.logo img').css('height', '40');
+          $('.logo').css('margin', '20px');
           $('.logo img').css('transform', 'rotate(270deg)');
           $('.brand').fadeOut();
+          $('.sidenav div').css('text-align', 'right');
+          $('.sidenav div').css('width', '70px');
       }
   }
   else
@@ -31,7 +34,11 @@ $(document).ready(function() {
             height:'160px'
           },100);
           $('.logo img').css('height', '80');
+          $('.logo').css('margin', '40px');
+          $('.logo img').css('transform', 'rotate(0deg)');
           $('.brand').fadeIn();
+          $('.sidenav div').css('text-align', 'right');
+          $('.sidenav div').css('width', '150px');
         }
     }
   });
