@@ -18,10 +18,10 @@ $(document).ready(function() {
             height:'80px'
           },400);
           $('.logo img').css('height', '40');
-          $('.logo').css('margin', '20px');
+          $('.logo').css('margin-top', '20px');
           $('.logo img').css('transform', 'rotate(270deg)');
           $('.brand').fadeOut();
-          $('.sidenav div').css('text-align', 'right');
+          $('.sidenav div').css('text-align', 'left');
           $('.sidenav div').css('width', '70px');
       }
   }
@@ -37,7 +37,7 @@ $(document).ready(function() {
           $('.logo').css('margin', '40px');
           $('.logo img').css('transform', 'rotate(0deg)');
           $('.brand').fadeIn();
-          $('.sidenav div').css('text-align', 'right');
+          $('.sidenav div').css('text-align', 'left');
           $('.sidenav div').css('width', '150px');
         }
     }
