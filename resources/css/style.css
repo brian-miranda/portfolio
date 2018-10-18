@@ -1,7 +1,7 @@
 /*Custom fonts*/
 @font-face {
   font-family: "VAG Rounded";
-  src: url(../fonts/VAG-rounded-bold.ttf) format("truetype");
+  src: url(../fonts/VAG-Rounded-Bold.ttf) format("truetype");
 }
 
 @font-face {
@@ -37,6 +37,10 @@ main {
   font-weight: bold;
 }
 
+.black {
+  color: #373737;
+}
+
 .title {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -46,6 +50,10 @@ main {
   font-size: 2rem;
   margin-top: 45px;
   margin-bottom: 5px;
+}
+
+.header {
+  font-size: 2rem;
 }
 
 .or {
@@ -161,10 +169,20 @@ header a {
 }
 
 .box {
-  background-color: beige;
-  color: black;
-  border-radius: 5px;
-  border: 2px green solid;
+  background-color: #FFD500;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.big-image {
+  width: 100%;
+}
+
+#colmar {
+  background-image: url("../images/colmar/main.png");
 }
 
 /*Resume styles*/
