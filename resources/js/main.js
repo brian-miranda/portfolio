@@ -1,12 +1,8 @@
 $(document).ready(function() {
-  $('#contact').ajaxForm(function() {
-      alert("I'll contact you soon! Now scram!");
-  });
 
   $(function(){
   $('#header_nav').data('size','big');
   });
-
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 0)
