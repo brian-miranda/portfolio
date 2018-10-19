@@ -157,6 +157,7 @@ header a {
 }
 
 /*Portfolio styles*/
+
 #portfolio {
   background-color: #0333FF;
 }
@@ -179,6 +180,10 @@ header a {
 
 .big-image {
   width: 100%;
+}
+
+.small-image {
+  width: 32%;
 }
 
 #colmar {
