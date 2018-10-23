@@ -12,7 +12,7 @@
 /*General styles*/
 body {
   width: 100%;
-  background-color: #373737;
+  background-color: #0333FF;
   font-size: 16px;
 }
 
@@ -64,10 +64,14 @@ main {
   margin: 15px;
 }
 
+.anchor {
+  padding-top: 80px;
+}
+
 /*Header styles*/
 header {
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   background-color: #0333FF;
   display: flex;
@@ -160,6 +164,7 @@ header a {
 
 #portfolio {
   background-color: #0333FF;
+  z-index: 2;
 }
 
 .grid {
@@ -198,6 +203,7 @@ header a {
   align-items: center;
   margin-top:-80px;
   padding-top:80px;
+  z-index: 1;
 }
 
 .intro {
@@ -220,8 +226,7 @@ header a {
 
 .cv {
   width: 850px;
-  padding-bottom: 90px;
-  margin-bottom: 90px;
+  /*padding-bottom: 90px;*/
 }
 
 .block h3 {
@@ -233,19 +238,24 @@ header a {
 }
 
 /*Contact styles*/
+#end {
+  height: 80px;
+  background-color: #FF1E53;
+}
+
 #contact-us {
   background-color: #FFD500;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:-80px;
-  padding-top:80px;
+  /*margin-top:-80px;
+  padding-top:80px;*/
+  z-index: 0;
 }
 
 .form-section {
-  margin-top: 90px;
+  padding: 90px 0 180px;
   width: 850px;
-  height: 1000px;
 }
 
 form {
