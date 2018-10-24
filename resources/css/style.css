@@ -71,7 +71,7 @@ main {
 /*Header styles*/
 header {
   position: fixed;
-  z-index: 3;
+  z-index: 1;
   width: 100%;
   background-color: #0333FF;
   display: flex;
@@ -164,7 +164,6 @@ header a {
 
 #portfolio {
   background-color: #0333FF;
-  z-index: 2;
 }
 
 .grid {
@@ -175,12 +174,28 @@ header a {
 }
 
 .box {
-  background-color: #FFD500;
+  overflow: hidden;
   color: white;
   text-decoration: none;
   text-align: center;
   background-position: center;
   background-size: cover;
+}
+
+.box img {
+  transition: all 0.5s, transform 0.5s;
+  width: 100%;
+  opacity: 1;
+}
+
+.box img:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+/*Preview styles*/
+.photobooth {
+  margin-bottom: 20px;
 }
 
 .big-image {
@@ -191,9 +206,41 @@ header a {
   width: 32%;
 }
 
-#colmar {
-  background-image: url("../images/colmar/main.png");
+.description {
+  margin-bottom: 20px;
 }
+
+.description h1 {
+  margin-bottom: 10px;
+}
+
+.description p {
+  margin-bottom: 20px;
+}
+
+a.preview {
+  padding: 10px 10px 8px 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #0333FF;
+  margin: 0 260px;
+  transition: all 0.4s ease;
+  transform-origin: center;
+  font-size: 16px;
+}
+
+a.preview:hover {
+  background-color: #FF1E53;
+}
+
+a.preview:active {
+  background-color: #0333FF;
+  transition: none;
+}
+
+/*#colmar {
+  background-image: url("../images/colmar/main.png");
+}*/
 
 /*Resume styles*/
 #resume {
@@ -203,7 +250,6 @@ header a {
   align-items: center;
   margin-top:-80px;
   padding-top:80px;
-  z-index: 1;
 }
 
 .intro {
@@ -250,7 +296,6 @@ header a {
   align-items: center;
   /*margin-top:-80px;
   padding-top:80px;*/
-  z-index: 0;
 }
 
 .form-section {
@@ -304,4 +349,11 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+/*Jquery modal styles*/
+.modal {
+  margin-top: 50px;
+  min-width: 700px;
+  display: flex;
 }

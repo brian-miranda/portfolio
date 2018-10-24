@@ -41,7 +41,7 @@ $(document).ready(function() {
 
   $('a.box').click(function(event) {
       $(this).modal({
-        fadeDuration: 1000
+        fadeDuration: 500,
       });
       return false;
     });
