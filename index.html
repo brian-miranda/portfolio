@@ -43,30 +43,49 @@
           <a href="#ex1" rel="modal:open" class="box vag">
             <img src="resources/images/colmar/main.png" alt="Colmar Academy">
           </a>
-          <a href="#ex2" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex3" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex4" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex5" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex6" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex7" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex8" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex9" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex10" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex11" rel="modal:open" class="box vag">Coming soon</a>
-          <a href="#ex12" rel="modal:open" class="box vag">Coming soon</a>
+          <a href="#ex2" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex3" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex4" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex5" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex6" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex7" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex8" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex9" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex10" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex11" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
+          <a href="#ex12" rel="modal:open" class="box vag">
+            <img src="" alt="">
+          </a>
         </div>
 
         <div id="ex1" class="modal">
           <div class="photobooth">
             <img class="big-image" src="resources/images/colmar/main.png" alt="">
-            <!-- <img class="small-image" src="resources/images/colmar/middle.png" alt="">
-            <img class="small-image" src="resources/images/colmar/animated.gif" alt="">
-            <img class="small-image" src="resources/images/colmar/end.png" alt=""> -->
           </div>
           <div class="description">
             <h1 class="vag header black">Colmar Academy</h1>
             <p class="suk black">This was my final project on my Codecademy course. The website uses special media queries to display different versions of the same site depending on the size of the display you use. I believe you kids call it "responsive design". Go ahead, give it a try. Just resize your browser window!</p>
-            <a href="#" class="preview vag">Check it out</a>
+            <a href="https://brian-miranda.github.io/colmaracademy/" class="preview vag">Check it out</a>
           </div>
         </div>
 
@@ -189,37 +208,42 @@
       <!-- Contact part -->
       <div id="contact-us">
 
+
         <!-- Contact sheet goes here -->
         <div class="form-section">
           <h1 class="vag title">Let's work<br>together!</h1>
-          <form id="contact" name="contact" method="post" class="suk">
+          <form id="contact-form" name="contact" method="post" class="suk">
             <fieldset>
               <label for="name" id="name">NAME:<span class="required">*</span></label>
-              <input type="text" name="name" id="name" size="30" value="" required/><br>
+              <input type="text" name="name" id="name" class="input" size="30" value="" required/><br>
+              <span id="name_validation" class="error_message"></span>
 
               <label for="email" id="email">EMAIL:<span class="required">*</span></label>
-              <input type="text" name="email" id="email" size="30" value="" required/><br>
+              <input type="text" name="email" id="email" class="input" size="30" value="" required/><br>
+              <span id="email_validation" class="error_message"></span>
 
               <label for="phone" id="phone">PHONE:</label>
-              <input type="text" name="phone" id="phone" size="30" value="" /><br>
+              <input type="text" name="phone" id="phone" class="input" size="30" value="" /><br>
+              <span id="phone_validation" class="error_message"></span>
 
               <div class="message-box">
                 <label for="Message" id="message">WHAT'S UP:<span class="required">*</span></label>
-                <textarea name="message" id="message" required></textarea><br>
+                <textarea name="message" id="message" class="input" required></textarea><br>
+                <span id="message_validation" class="error_message"></span>
               </div>
 
-              <input id="submit" type="submit" name="submit" value="Send" class="button"/><br>
+              <input id="submit-button" type="submit" name="submit" value="Send" class="button"/><br>
             </fieldset>
           </form>
 
           <!--Success and error messages
-          <div id="success">
+          <div id="success" class="modal">
             <span>
               <p>Your message was sent successfully! I will be in touch as soon as I can.</p>
             </span>
           </div>
 
-          <div id="error">
+          <div id="error" class="modal">
             <span>
               <p>Something went wrong, try refreshing and submitting the form again.</p>
             </span>
