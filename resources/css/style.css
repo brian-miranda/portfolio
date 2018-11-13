@@ -68,6 +68,18 @@ main {
   padding-top: 80px;
 }
 
+.blue {
+  background-color: #0333FF;
+}
+
+.red {
+  background-color: #FF1E53;
+}
+
+.yellow {
+  background-color: #FFD500;
+}
+
 /*Header styles*/
 header {
   position: fixed;
