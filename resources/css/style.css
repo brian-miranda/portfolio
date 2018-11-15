@@ -4,9 +4,16 @@
   src: url(../fonts/VAG-Rounded-Bold.ttf) format("truetype");
 }
 
-@font-face {
+/* @font-face { Doesn't work on FF
   font-family: "Sukhumvit";
   src: url(../fonts/SukhumvitSet.ttc) format("opentype");
+} */
+
+@font-face {
+  font-family: "Sukhumvit";
+  src: url(../fonts/SukhumvitSet-Thin.ttf) format("truetype");
+  font-style: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 /*General styles*/
