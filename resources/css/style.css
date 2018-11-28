@@ -1,4 +1,4 @@
-/*Custom fonts*/
+/*Custom fonts------------------------------------------------*/
 @font-face {
   font-family: "VAG Rounded";
   src: url(../fonts/VAG-Rounded-Bold.ttf) format("truetype");
@@ -16,7 +16,7 @@
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-/*General styles*/
+/*General styles------------------------------------------------*/
 body {
   width: 100%;
   background-color: #0333FF;
@@ -87,7 +87,11 @@ main {
   background-color: #FFD500;
 }
 
-/*Header styles*/
+a {
+  color: #FFF;
+}
+
+/*Header styles------------------------------------------------*/
 header {
   position: fixed;
   z-index: 1;
@@ -129,7 +133,7 @@ header a {
   text-decoration: none;
 }
 
-/*Sidenav*/
+/*Sidenav------------------------------------------------*/
 
 .sidenav {
   transform: rotate(270deg);
@@ -179,7 +183,7 @@ header a {
   background-color: #FFD500;
 }
 
-/*Portfolio styles*/
+/*Portfolio styles------------------------------------------------*/
 
 #portfolio {
   background-color: #0333FF;
@@ -189,13 +193,13 @@ header a {
   display: grid;
   width: 100%;
   height: 1000px;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: 1fr 1fr 1fr;
-  /*grid-template: repeat(4, 1fr) / repeat(3, 1fr);*/
+
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
 }
 
 .quote {
   grid-area: 4 / 1 / 4 / 4;
+  padding: 25px;
 }
 
 .box {
@@ -218,7 +222,7 @@ header a {
   opacity: 0.7;
 }
 
-/*Preview styles*/
+/*Preview styles------------------------------------------------*/
 .photobooth {
   margin-bottom: 20px;
 }
@@ -259,7 +263,7 @@ a.preview:active {
   transition: none;
 }
 
-/*Resume styles*/
+/*Resume styles------------------------------------------------*/
 #resume {
   background-color: #FF1E53;
   display: flex;
@@ -304,7 +308,7 @@ a.preview:active {
   margin-top: 30px;
 }
 
-/*Contact styles*/
+/*Contact styles------------------------------------------------*/
 #end {
   height: 80px;
   background-color: #FF1E53;
@@ -420,7 +424,7 @@ textarea#message {
   width: 50px;
 }
 
-/*Footer styles*/
+/*Footer styles------------------------------------------------*/
 footer {
   position: absolute;
   background-color: #373737;
@@ -431,10 +435,35 @@ footer {
   align-items: center;
 }
 
-/*Jquery modal styles*/
+/*Jquery modal styles------------------------------------------------*/
 .modal {
   margin-top: 50px;
   min-width: 700px;
   display: flex;
   overflow: visible;
+}
+
+/*Media queries hoo boy------------------------------------------------*/
+@media only screen and (max-width:600px) {
+  .party {
+    d
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .party {
+    d
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .party {
+    d
+  }
+}
+
+@media only screen and (max-width:1800px) {
+  .party {
+    d
+  }
 }
