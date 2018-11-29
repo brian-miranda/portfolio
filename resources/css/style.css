@@ -476,6 +476,25 @@ footer {
     top: 80px;
   }
 
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  .or {
+    margin-bottom: 1rem;
+  }
+
+  br {
+    display: none;
+  }
+
   #header-nav {
     display: none;
   }
@@ -508,6 +527,7 @@ footer {
 
   .small-sidenav div {
     text-align: left;
+    height: 30px;
     width: 80px;
     padding: 5px;
     transition: all 0.4s ease;
@@ -519,6 +539,79 @@ footer {
     width: 100%;
     height: 1000px;
     grid-template: 1fr / repeat (9, 1fr);
+  }
+
+  .quote {
+    height: 230px;
+    padding: 10px;
+  }
+
+  .quote h2 {
+    margin: 20px 0 10px;
+    font-size: 1.1rem;
+  }
+
+  .quote p {
+    margin-top: 10px;
+    font-size: .9rem;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  .intro-text {
+    margin-left: 0;
+  }
+
+  .picture {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 60px;
+  }
+
+  .cv {
+    width: 100%;
+  }
+
+  .cv .title {
+    margin-left: 40px;
+  }
+
+  .cv div {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .right {
+    text-align: left;
+  }
+
+  .form-section {
+    width: 100%;
+  }
+
+  .form-section .title {
+    margin-left: 40px;
+  }
+
+  .new-contact {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 70px 0 0;
+  }
+
+  .contact-block {
+    margin: 25px 0;
   }
 }
 
