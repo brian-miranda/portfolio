@@ -469,9 +469,82 @@ footer {
 }
 
 /*Media queries hoo boy------------------------------------------------*/
+/*Desktop*/
+@media only screen and (min-width: 1800px) {
+  .grid {
+    height: 1300px;
+  }
+
+  .quote h2 {
+    font-size: 3rem;
+  }
+
+  .quote p {
+    font-size: 2rem;
+  }
+
+  .form-section {
+    height: 700px;
+  }
+}
+
+/*Landscape tablets*/
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*Portrait tablets*/
+@media all and (max-width: 900px) {
+  .grid {
+    height: 800px;
+  }
+
+  .quote h2 {
+    font-size: 1.5rem;
+  }
+
+  .quote p {
+    font-size: 1rem;
+  }
+
+  .intro {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .intro br {
+    display: none;
+  }
+
+  .cv {
+    width: 100%;
+  }
+
+  .cv .title {
+    margin-left: 40px;
+  }
+
+  .cv div {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .form-section {
+    width: 100%;
+  }
+
+  .form-section .title {
+    margin-left: 40px;
+  }
+
+  .new-contact {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
 
 /*Phones and such*/
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   main {
     top: 80px;
   }
@@ -537,7 +610,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     grid-template: 1fr / repeat (9, 1fr);
   }
 
@@ -547,20 +620,20 @@ footer {
   }
 
   .quote h2 {
-    margin: 20px 0 10px;
-    font-size: 1.1rem;
+    margin: 40px 0 10px;
+    font-size: 1.5rem;
   }
 
   .quote p {
     margin-top: 10px;
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   .intro {
     flex-direction: column;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 40px;  /*here*/
+    margin-right: 40px; /*here*/
     text-align: center;
   }
 
@@ -579,12 +652,12 @@ footer {
   }
 
   .cv .title {
-    margin-left: 40px;
+    margin-left: 40px; /*here*/
   }
 
   .cv div {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 40px; /*here*/
+    margin-right: 40px;/*here*/
   }
 
   .right {
@@ -596,12 +669,12 @@ footer {
   }
 
   .form-section .title {
-    margin-left: 40px;
+    margin-left: 40px; /*here*/
   }
 
   .new-contact {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 40px; /*here*/
+    margin-right: 40px;/*here*/
   }
 
   .contact-info {
@@ -613,25 +686,9 @@ footer {
   .contact-block {
     margin: 25px 0;
   }
-}
 
-/*Portrait tablets*/
-@media only screen and (max-width:900px) {
-  .party {
-    /*Nope*/
-  }
-}
-
-/*Landscape tablets*/
-@media only screen and (max-width:1200px) {
-  .party {
-    /*Nope*/
-  }
-}
-
-/*Desktop*/
-@media only screen and (max-width:1800px) {
-  .party {
-    /*Nope*/
+  footer {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
