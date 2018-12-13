@@ -164,6 +164,10 @@ header a {
   text-decoration: none;
 }
 
+.sidenav span {
+  cursor: pointer;
+}
+
 .sidenav div:hover {
   padding: 20px 5px;
 }
@@ -487,7 +491,7 @@ footer {
     font-size: 18px;
   }
 
-  .sidenav a {
+  .sidenav span {
     font-size: 16px;
   }
 
