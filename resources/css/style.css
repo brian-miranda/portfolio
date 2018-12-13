@@ -326,17 +326,20 @@ a.preview:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 
 .form-section {
-  padding: 90px 0 190px;
+  padding: 90px 0 200px;
   width: 850px;
 }
 
 .contact-info {
   display: flex;
   justify-content: space-around;
-  margin: 70px 0;
+  align-items: center;
+  height: 10rem;
+  margin: 100px 0;
 }
 
 .contact-block {
@@ -344,6 +347,15 @@ a.preview:active {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
+}
+
+.contact-block a {
+  transition: all .5s ease;
+  transform-origin: center center center;
+}
+
+.contact-block a:hover {
+  font-size: 1.1rem;
 }
 
 .contact-block h3 {
@@ -471,26 +483,52 @@ footer {
 /*Media queries hoo boy------------------------------------------------*/
 /*Desktop*/
 @media only screen and (min-width: 1800px) {
+  body {
+    font-size: 18px;
+  }
+
+  .sidenav a {
+    font-size: 16px;
+  }
+
   .grid {
     height: 1300px;
   }
 
   .quote h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .quote p {
+    margin-top: 2rem;
     font-size: 2rem;
+  }
+
+  .intro {
+    padding: 90px 0 90px;
+    display: flex;
+  }
+
+  .intro-text {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .picture {
+    height: 250px;
+    width: auto;
+    border-radius: 125px;
+  }
+
+  .cv {
+    width: 60%;
   }
 
   .form-section {
     height: 700px;
   }
-}
-
-/*Landscape tablets*/
-@media only screen and (max-width: 1200px) {
-
 }
 
 /*Portrait tablets*/

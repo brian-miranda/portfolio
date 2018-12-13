@@ -45,6 +45,25 @@ $(document).ready(function() {
         fadeDuration: 500,
       });
       return false;
-    });
+  });
+
+  // scroll animated buttons
+  $("#work").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#start").offset().top
+    }, 'slow');
+  });
+
+  $("#about").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#resume").offset().top
+    }, 'slow');
+  });
+
+  $("#contact").click(function() {
+    $('html,body').animate({
+      scrollTop: $("#end").offset().top
+    }, 'slow');
+  });
 
 });
