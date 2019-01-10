@@ -332,6 +332,7 @@
         <div class="form-section">
           <h1 class="vag title">Let's work<br> together!</h1>
 
+          <!-- This is the new contact non-form solution to the form problem, NCNFSTTFP for short
           <div class="new-contact">
             <h2 class="vag subtitle">There used to be a contact form here,<br>but I never got it working!</h2>
 
@@ -349,29 +350,30 @@
               </div>
             </div>
           </div>
+          This is the end of the new contact non-form solution to the form problem -->
 
-          <!-- Contact sheet goes here I GIVE UP, THIS SHIT DON'T WORK
-          <form id="contact" name="contact" method="post" class="suk">
+          <!-- Contact sheet goes here I GIVE UP, THIS SHIT DON'T WORK Contact sheet ends here -->
+          <form id="contact" name="contact" action="submission.html" method="POST" class="suk">
             <fieldset>
-              <label for="name" id="name">NAME:<span class="required">*</span></label>
-              <input type="text" name="name" id="name" class="input" size="30" value="" required/><br>
+              <label for="name">NAME:<span class="required">*</span></label>
+              <input type="text" name="name" id="name" class="input" size="30" value="" placeholder="Your name" required><br>
               <span id="name_validation" class="error_message"></span>
 
-              <label for="email" id="email">EMAIL:<span class="required">*</span></label>
-              <input type="email" name="email" id="email" class="input" size="30" value="" required/><br>
+              <label for="email">EMAIL:<span class="required">*</span></label>
+              <input type="email" name="email" id="email" class="input" size="30" value="" placeholder="Your email" required><br>
               <span id="email_validation" class="error_message"></span>
 
-              <label for="phone" id="phone">PHONE:</label>
-              <input type="text" name="phone" id="phone" class="input" size="30" value="" /><br>
+              <label for="phone">PHONE:</label>
+              <input type="text" name="phone" id="phone" class="input" size="30" value="" placeholder="867-5309"><br>
               <span id="phone_validation" class="error_message"></span>
 
               <div class="message-box">
-                <label for="Message" id="message">WHAT'S UP:<span class="required">*</span></label>
-                <textarea name="message" id="message" class="input" required></textarea><br>
+                <label for="message" id="message-name">WHAT'S UP:<span class="required">*</span></label>
+                <textarea name="message" id="message" class="input" required placeholder="Your message"></textarea><br>
                 <span id="message_validation" class="error_message"></span>
               </div>
 
-              <input id="submit" type="submit" name="submit" value="Send" class="button"/><br>
+              <input type="submit" value="Send" class="button"/><br>
             </fieldset>
           </form>
 
@@ -387,7 +389,7 @@
               <p class="suk">Something went wrong, try refreshing and submitting the form again.</p>
             </span>
           </div>
-           Contact sheet ends here -->
+
 
         </div>
       </div>
