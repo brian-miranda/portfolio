@@ -356,11 +356,11 @@
           <form id="contact" name="contact" action="submission.html" method="POST" class="suk">
             <fieldset>
               <label for="name">NAME:<span class="required">*</span></label>
-              <input type="text" name="name" id="name" class="input" size="30" value="" placeholder="Your name" required><br>
+              <input type="text" name="name" id="name" class="input" size="30" value="" placeholder="Your name" minlength="3" maxlength="100" required><br>
               <span id="name_validation" class="error_message"></span>
 
               <label for="email">EMAIL:<span class="required">*</span></label>
-              <input type="email" name="email" id="email" class="input" size="30" value="" placeholder="Your email" required><br>
+              <input type="email" name="email" id="email" class="input" size="30" value="" placeholder="Your email" minlength="3" maxlength="100"  required><br>
               <span id="email_validation" class="error_message"></span>
 
               <label for="phone">PHONE:</label>
