@@ -417,9 +417,7 @@ textarea {
 }
 
 form input[type="text"], form textarea {
-    line-height:1.4rem;
-    font-size:14px;
-    line-height:14px;
+    
 }
 form input[type="text"]:focus, form textarea:focus {
     border-color:#191919;
