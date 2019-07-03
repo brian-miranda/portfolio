@@ -142,7 +142,6 @@ header a {
 }
 
 /*Sidenav------------------------------------------------*/
-
 .sidenav {
   transform: rotate(270deg);
   transform-origin: bottom;
@@ -196,7 +195,6 @@ header a {
 }
 
 /*Portfolio styles------------------------------------------------*/
-
 #portfolio {
   background-color: #0333FF;
 }
@@ -296,8 +294,8 @@ a.preview:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:-80px;
-  padding-top:80px;
+  margin-top: -80px;
+  padding-top: 80px;
 }
 
 .intro {
@@ -395,12 +393,12 @@ label {
 }
 
 label.error {
-    margin-bottom:1em;
-    font-size:1.2rem;
-    line-height:1.2rem;
-    font-size:12px;
-    line-height:12px;
-    color:#c0392b
+  margin-bottom: 1em;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 12px;
+  line-height: 12px;
+  color: #c0392b
 }
 
 input {
@@ -408,55 +406,63 @@ input {
   height: 20px;
   margin: 20px;
   font-family: "Sukhumvit";
-  font-size:14px;
+  font-size: 14px;
 }
 
 textarea {
   font-family: "Sukhumvit";
-  font-size:14px;
+  font-size: 14px;
 }
 
-form input[type="text"], form textarea {
-    
-}
+form input[type="text"], form textarea {}
+
 form input[type="text"]:focus, form textarea:focus {
-    border-color:#191919;
-    box-shadow:none;
-    -moz-box-shadow:none;
-    -webkit-box-shadow:none
+  border-color: #191919;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none
 }
+
 form input[type="text"][disabled], form textarea[disabled] {
-    background:#fff
+  background: #fff
 }
+
 form input[type="text"].error, form textarea.error {
-    background:#e6e6e6;
-    border-color:#c0392b
+  background: #e6e6e6;
+  border-color: #c0392b
 }
+
 fieldset {
-    border:0px;
-    margin:0;
-    padding:0
+  border: 0px;
+  margin: 0;
+  padding: 0
 }
+
 .required {
-    color:#e9266d
+  color: #e9266d
 }
+
 #success, #error {
-    display:none
+  display: none
 }
+
 #success span, #erro span {
-    display:block;
-    position:absolute;
-    top:0;
-    width:100%
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%
 }
+
 #success span p, #error span p {
-    margin-top:6em
+  margin-top: 6em
 }
+
 #success span p {
-  color:#9bd32d;
+  color: #9bd32d;
 }
+
 #error span p {
-  color:#c0392b;
+  color: #c0392b;
 }
 
 .message-box {
@@ -688,8 +694,10 @@ footer {
   .intro {
     flex-direction: column;
     align-items: center;
-    margin-left: 40px;  /*here*/
-    margin-right: 40px; /*here*/
+    margin-left: 40px;
+    /*here*/
+    margin-right: 40px;
+    /*here*/
     text-align: center;
   }
 
@@ -708,12 +716,15 @@ footer {
   }
 
   .cv .title {
-    margin-left: 40px; /*here*/
+    margin-left: 40px;
+    /*here*/
   }
 
   .cv div {
-    margin-left: 40px; /*here*/
-    margin-right: 40px;/*here*/
+    margin-left: 40px;
+    /*here*/
+    margin-right: 40px;
+    /*here*/
   }
 
   .right {
@@ -725,12 +736,15 @@ footer {
   }
 
   .form-section .title {
-    margin-left: 40px; /*here*/
+    margin-left: 40px;
+    /*here*/
   }
 
   .new-contact {
-    margin-left: 40px; /*here*/
-    margin-right: 40px;/*here*/
+    margin-left: 40px;
+    /*here*/
+    margin-right: 40px;
+    /*here*/
   }
 
   .contact-info {
