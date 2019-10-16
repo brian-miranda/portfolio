@@ -61,4 +61,17 @@ $(document).ready(function() {
     }, 'slow');
   });
 
+  // quote randomizer
+  var slogans = ["A modest site for modest mice!",
+                "It's dot com!",
+                "A normal functioning member of the human race!",
+                "Cynical views on the world and stuff since 1992.",
+                "Pioneer of aerodynamics.",
+                "They have the internet on computers now!",
+                "A few lines of code say more than a thousand words.",
+                "Just hire me already!",
+                "In a few devoted hearts I've found a strong fanbase!",
+                "I probably won't like you very much, but that doesn't mean we can't do something cool",
+                "Love is hate. Hate is love."]
+
 });
