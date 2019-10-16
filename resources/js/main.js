@@ -72,6 +72,7 @@ $(document).ready(function() {
                 "Just hire me already!",
                 "In a few devoted hearts I've found a strong fanbase!",
                 "I probably won't like you very much, but that doesn't mean we can't do something cool",
-                "Love is hate. Hate is love."]
+                "Love is hate. Hate is love."];
 
+  var randomNumber = Math.floor(Math.random() * (slogans.length));
 });
